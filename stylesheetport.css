@@ -1,0 +1,80 @@
+  
+ .navbar-brand {
+    color: #303030;
+    font-size: 34px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 90px;
+    width: 100px;
+    text-align: center;
+}
+
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); 
+}
+
+ header {
+  background-image: url("assets\images\red-digital-technology-background-picture-binary-code-pattern-light-194380.jpg");
+  }
+
+ body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#8a8a8a;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.header {
+  background-image: url('assets\images\red-digital-technology-background-picture-binary-code-pattern-light-194380.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bg-1 {
+  background-color: #90bdb4;
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #6c6f75; 
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff;
+  color: #7a7a7a;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 1%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
